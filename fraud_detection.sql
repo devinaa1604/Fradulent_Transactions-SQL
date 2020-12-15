@@ -44,6 +44,7 @@ ORDER BY amount DESC;
 -- This could indicate a fraudlent behavior. 
 
 -- Is there a higher number of fraudulent transactions made during this time frame versus the rest of the day?
+CREATE VIEW fraudlent_transactions_other_times AS
 SELECT id, date("date") AS date, cast(date as time) AS time, amount, card, id_merchant
 FROM transaction
 WHERE CAST(date as time) NOT BETWEEN '7:00:00' and '09:00:00' AND
