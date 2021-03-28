@@ -55,7 +55,7 @@ Generated visualizations that supply detailed trends data on specific card holde
   * Created a single line plot that contains both card holders' trend data
 
   * Analyzed if this showed any fradulent activity: 
-  Credit card holder 18 is trying to fly under the radar with small amounts, and regularly taking bit money (>$1000). Therefore card holder 18 is riskier that credit card holder 2.
+> Credit card holder 18 is trying to fly under the radar with small amounts, and regularly taking bit money (>$1000). Therefore card holder 18 is riskier that credit card holder 2.
 
 * The customer company can decide to see if the corporate credit card without authorization in the first quarter of 2018 to pay quite expensive restaurant bills. For privacy reasons, I only use the cardholder ID: 25.
 
@@ -64,7 +64,7 @@ Generated visualizations that supply detailed trends data on specific card holde
   * Looked for outliers for cardholder ID 25
 
   * Analyzed if this showed any anomalies:
-  Card holder 25 is quite suspicious. Majority of their transactions are of small amounts, but almost every month there is big spending which is usually above $1000.
+> Card holder 25 is quite suspicious. Majority of their transactions are of small amounts, but almost every month there is big spending which is usually above $1000.
 
 ## Another Apporach
 
